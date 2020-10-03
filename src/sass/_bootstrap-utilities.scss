@@ -1,13 +1,23 @@
 $utilities: (
-  "opacity": (
-    property: opacity,
-    class: o,
+  "color": (
+    property: color,
+    class: color,
     values: (
-      0: 0,
-      25: 0.25,
-      50: 0.5,
-      75: 0.75,
-      100: 1,
+      black: #342c35,
+      green: #84c318,
+      red: #dd403a,
+      white: #f7f0f0,
+      blue: #2e86ab,
+    ),
+  ),
+  "font": (
+    property: font-family,
+    class: font,
+    values: (
+      normal: (
+        "Source Sans Pro",
+        sans-serif,
+      ),
     ),
   ),
 );

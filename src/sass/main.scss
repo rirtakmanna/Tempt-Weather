@@ -1,4 +1,43 @@
 // Uncomment only if you need to change bootstrap default utilities
-// @import "./bootstrap-utilities";
+@import "./bootstrap-utilities";
 
 @import "./../../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+body {
+  background: #f7f0f0;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+}
+.container {
+  max-width: 400px;
+}
+.text {
+  font-size: 2.5rem;
+  letter-spacing: 0.05rem;
+}
+.myText {
+  font-size: 1.5rem;
+}
+
+.label {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+option {
+  cursor: pointer;
+}
+
+.btn-outline-danger {
+  color: #dd403a;
+  border-color: #dd403a;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
